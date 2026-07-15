@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portello Labs - Portello Consultoria em Tecnologia da Informacao. Solucoes de TI para PMEs, startups e profissionais autonomos." />
+  <meta name="description" content="Portello Labs - Portello Consultoria em Tecnologia da Informação. Soluções de TI para PMEs, startups e profissionais autônomos." />
   <meta name="facebook-domain-verification" content="jnb2jogqrohtyhndc1g7yx48vg9q7b" />
   <title>Portello Labs | Consultoria em TI</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/favicon-512.png" />
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -18,11 +21,14 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#top" aria-label="Portello Labs">
-        <span class="brand-main">Portello Labs</span>
-        <span class="brand-sub">Portello Consultoria em Tecnologia da Informacao</span>
+        <img class="brand-icon" src="assets/logo/icone-verde-neon.png" alt="" width="28" height="28" />
+        <span class="brand-text">
+          <span class="brand-main">Portello Labs</span>
+          <span class="brand-sub">Composing problems into solutions</span>
+        </span>
       </a>
-      <nav class="nav" id="main-nav" aria-label="Navegacao principal">
-        <a href="#servicos">Servicos</a>
+      <nav class="nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
         <a href="#processo">Processo</a>
         <a href="#sobre">Sobre</a>
         <a href="#contato">Contato</a>
@@ -34,13 +40,14 @@
 
   <main id="top">
     <section class="hero">
+      <img class="hero-pattern" src="assets/pattern/fluxo-verde-azul.png" alt="" aria-hidden="true" />
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">Tech Services • Freelance • Consulting</p>
-          <h1>Solucoes de TI para destravar o proximo passo do seu negocio.</h1>
+          <h1>Soluções de TI para destravar o próximo passo do seu negócio.</h1>
           <p class="hero-copy">
             Atendimento especializado para pequenos projetos e freelas de alto impacto: websites, bots,
-            automacoes, sistemas sob medida e integracoes de pagamento.
+            automações, sistemas sob medida e integrações de pagamento.
           </p>
           <div class="hero-cta">
             <a class="btn btn-primary" href="https://wa.me/5511986993010" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
@@ -57,51 +64,59 @@
             <li>Briefing inicial e alinhamento de escopo.</li>
             <li>Requisitos e cronograma organizados no Notion.</li>
             <li>Entregas incrementais com calls de acompanhamento.</li>
-            <li>Aprovacao final e handoff com suporte.</li>
+            <li>Aprovação final e handoff com suporte.</li>
           </ol>
           <p class="pill">Pagamento: 60% adiantado + 40% na entrega</p>
           <p class="pill">Contrato digital: DocuSign ou Gov.br</p>
-          <p class="pill">Emissao de nota fiscal</p>
+          <p class="pill">Emissão de nota fiscal</p>
         </aside>
       </div>
     </section>
 
     <section class="section" id="servicos">
       <div class="container">
-        <p class="eyebrow">Nossos Servicos</p>
-        <h2>Pacotes praticos para resolver dor real</h2>
+        <p class="eyebrow">Nossos Serviços</p>
+        <h2>Pacotes práticos para resolver dor real</h2>
         <div class="cards">
           <article class="card reveal">
+            <img class="card-icon" src="assets/icons/automacao.png" alt="" />
             <h3>Bots de WhatsApp</h3>
-            <p>Atendimento automatizado 24/7, captura de leads e integracao com CRM/planilhas.</p>
+            <p>Atendimento automatizado 24/7, captura de leads e integração com CRM/planilhas.</p>
           </article>
           <article class="card reveal">
+            <img class="card-icon" src="assets/icons/acesso.png" alt="" />
             <h3>Sites Interativos</h3>
-            <p>Site responsivo, rapido e otimizado para SEO, com foco em conversao.</p>
+            <p>Site responsivo, rápido e otimizado para SEO, com foco em conversão.</p>
           </article>
           <article class="card reveal">
+            <img class="card-icon" src="assets/icons/inteligencia.png" alt="" />
             <h3>Assistentes de IA</h3>
-            <p>Chatbots e agentes com GPT para atendimento, recomendacoes e automacoes.</p>
+            <p>Chatbots e agentes com GPT para atendimento, recomendações e automações.</p>
           </article>
           <article class="card reveal">
+            <img class="card-icon" src="assets/icons/estrutura.png" alt="" />
             <h3>Sistemas Customizados</h3>
-            <p>Backend, APIs e banco de dados sob medida para o core do seu negocio.</p>
+            <p>Backend, APIs e banco de dados sob medida para o core do seu negócio.</p>
           </article>
           <article class="card reveal">
-            <h3>Integracao de Pagamentos</h3>
-            <p>PIX, cartao, boleto e notificacoes para fluxo de vendas automatizado.</p>
+            <img class="card-icon" src="assets/icons/integracao.png" alt="" />
+            <h3>Integração de Pagamentos</h3>
+            <p>PIX, cartão, boleto e notificações para fluxo de vendas automatizado.</p>
           </article>
           <article class="card reveal">
+            <img class="card-icon" src="assets/icons/solucao.png" alt="" />
             <h3>Plataformas Completas</h3>
-            <p>E-commerce e areas de membros com painel de gestao e escalabilidade.</p>
+            <p>E-commerce e áreas de membros com painel de gestão e escalabilidade.</p>
           </article>
           <article class="card reveal">
+            <img class="card-icon" src="assets/icons/dados.png" alt="" />
             <h3>Automações Empresariais</h3>
-            <p>Scripts para eliminar tarefas repetitivas e gerar relatorios de forma confiavel.</p>
+            <p>Scripts para eliminar tarefas repetitivas e gerar relatórios de forma confiável.</p>
           </article>
           <article class="card reveal">
-            <h3>Suporte Pos-Entrega</h3>
-            <p>30 dias de suporte, treinamento basico e refinamentos para mobile.</p>
+            <img class="card-icon" src="assets/icons/seguranca.png" alt="" />
+            <h3>Suporte Pós-Entrega</h3>
+            <p>30 dias de suporte, treinamento básico e refinamentos para mobile.</p>
           </article>
         </div>
       </div>
@@ -111,19 +126,19 @@
       <div class="container process-grid">
         <div>
           <p class="eyebrow">Processo de Trabalho</p>
-          <h2>Transparencia do primeiro contato ate a entrega</h2>
+          <h2>Transparência do primeiro contato até a entrega</h2>
           <p>
-            Cada projeto e conduzido com etapas claras, documentacao continua e checkpoints de validacao.
-            O objetivo e reduzir risco, acelerar decisoes e manter voce no controle.
+            Cada projeto é conduzido com etapas claras, documentação contínua e checkpoints de validação.
+            O objetivo é reduzir risco, acelerar decisões e manter você no controle.
           </p>
         </div>
-        <ul class="timeline reveal">
-          <li><strong>1. Diagnostico:</strong> call inicial via Calendly ou Google Agenda.</li>
-          <li><strong>2. Planejamento:</strong> requisitos e backlog documentados no Notion.</li>
-          <li><strong>3. Execucao:</strong> entregas progressivas com demonstracoes recorrentes.</li>
-          <li><strong>4. Formalizacao:</strong> contrato padrao digital para seguranca de ambas as partes.</li>
-          <li><strong>5. Pagamento PJ:</strong> cobranca via conta PJ Nubank.</li>
-        </ul>
+        <div class="timeline reveal">
+          <p><strong>1. Diagnóstico:</strong> call inicial via Calendly ou Google Agenda.</p>
+          <p><strong>2. Planejamento:</strong> requisitos e backlog documentados no Notion.</p>
+          <p><strong>3. Execução:</strong> entregas progressivas com demonstrações recorrentes.</p>
+          <p><strong>4. Formalização:</strong> contrato padrão digital para segurança de ambas as partes.</p>
+          <p><strong>5. Pagamento PJ:</strong> cobrança via conta PJ Nubank.</p>
+        </div>
       </div>
     </section>
 
@@ -133,26 +148,26 @@
           <p class="eyebrow">Sobre Mim</p>
           <h2>Ana Luiza Portello Bastos</h2>
           <p>
-            Desenvolvedora de software com mais de 10 anos de experiencia em empresas nacionais e multinacionais,
-            com foco em sistemas distribuidos, APIs e solucoes escalaveis.
+            Desenvolvedora de software com mais de 10 anos de experiência em empresas nacionais e multinacionais,
+            com foco em sistemas distribuídos, APIs e soluções escaláveis.
           </p>
           <p>
-            Formada em Ciencia da Computacao pela PUC-SP e pos-graduanda em Docencia no Ensino Superior.
-            Experiencia com Golang, Clojure, Elixir, TypeScript, Python, Java, React e Node.js.
+            Formada em Ciência da Computação pela PUC-SP e pós-graduanda em Docência no Ensino Superior.
+            Experiência com Golang, Clojure, Elixir, TypeScript, Python, Java, React e Node.js.
           </p>
           <p>
-            Alem do desenvolvimento, atuo em mentoria e educacao tech para apoiar equipes, empreendedores
-            e profissionais em transformacao digital.
+            Além do desenvolvimento, atuo em mentoria e educação tech para apoiar equipes, empreendedores
+            e profissionais em transformação digital.
           </p>
         </div>
         <div class="about-panel reveal">
           <h3>Diferenciais</h3>
           <ul class="checklist">
-            <li>Precos tabelados e transparentes.</li>
+            <li>Preços tabelados e transparentes.</li>
             <li>Arquitetura pensada para crescimento.</li>
-            <li>Comunicacao objetiva e acompanhamento frequente.</li>
-            <li>Experiencia pratica com PMEs, startups e times tech.</li>
-            <li>Visao tecnica e didatica para acelerar adocao.</li>
+            <li>Comunicação objetiva e acompanhamento frequente.</li>
+            <li>Experiência prática com PMEs, startups e times tech.</li>
+            <li>Visão técnica e didática para acelerar adoção.</li>
           </ul>
         </div>
       </div>
@@ -163,7 +178,7 @@
         <p class="eyebrow">Contato</p>
         <h2>Vamos tirar sua ideia do papel?</h2>
         <p>
-          Para freelas rapidos ou projetos de medio prazo, entre em contato e receba um direcionamento inicial sem custo.
+          Para freelas rápidos ou projetos de médio prazo, entre em contato e receba um direcionamento inicial sem custo.
         </p>
         <div class="contact-list">
           <a href="https://wa.me/5511986993010" target="_blank" rel="noopener noreferrer">WhatsApp: 11 986993010</a>
@@ -176,9 +191,12 @@
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <p>Portello Labs</p>
-      <p>Portello Consultoria em Tecnologia da Informacao</p>
-      <p><a href="politica-de-privacidade/" rel="noopener">Politica de Privacidade (PT)</a></p>
+      <img class="footer-logo" src="assets/logo/assinatura-verde-neon.png" alt="Portello Labs - Composing problems into solutions" />
+      <div class="footer-links">
+        <p>Portello Consultoria em Tecnologia da Informação</p>
+        <p>CNPJ: 55.928.230/0001-07</p>
+        <p><a href="politica-de-privacidade/" rel="noopener">Política de Privacidade (PT)</a></p>
+      </div>
     </div>
   </footer>
 
